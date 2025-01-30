@@ -1,4 +1,6 @@
 import math
+import random
+
 luoti = input("luodit")
 luoti = float(luoti)
 naula = input("naulat")
@@ -15,6 +17,8 @@ kilogramma = int (massa_gr/1000)
 grammat = int (massa_gr%1000)
 
 print (f"massa nykyään {kilogramma} kg {grammat} grammaa")
+
+
 
 
 
