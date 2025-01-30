@@ -2,7 +2,7 @@
 
 onAlku = True
 luku = int(input("Anna kokonaisluku:\n"))
-for jakaja in range (2, luku):
+for jakaja in range (2, luku//2):
     if luku % jakaja == 0:
         onAlku = False
         break
