@@ -17,13 +17,5 @@ def main():
     pizza2halk = float(input("Sano toisen pizzan halkaisija: "))
     pizza2hint = float(input("Sano toisen pizzan hinta: "))
     pizza2laskettu = pizza(pizza2halk, pizza2hint)
-
-    if (pizza2laskettu < pizza1laskettu):
-        print("Pizza 2 on halvempi")
-    elif (pizza2laskettu > pizza1laskettu):
-        print("Pizza 1 on halvempi")
-    else:
-        print("Pizzat ovat saman hintaiset.")
-
-
+    print (pizza(pizzalk, pizzahint))
 main()
