@@ -14,24 +14,26 @@ def syötä_uusi_asema():
     icao = input("Anna aseman ICAO-koodi: \n")
     lentokentät[icao] = nimi
     print("Lentokenttä lisätty ohjelmaan.\n")
-    valikko()
+
 
 
 def etsi_asemaa():
     kenttä = input("Anna ICAO-koodi: \n")
     if kenttä in lentokentät:
         print (f"Koodia vastaava lentökenttä on {lentokentät[kenttä]}\n")
-        valikko()
+
 
 def sulje():
     print("Ohjelma suljetaan")
 
 valinta = valikko()
-if valinta == 1:
-    syötä_uusi_asema()        #ei luuppaa valikkoon, mieti vielä!
-if valinta == 2:
+while valinta != 3:
+    if valinta == 1:
+        syötä_uusi_asema()
+        valinta = valikko()
+    if valinta == 2:
         etsi_asemaa()
-if valinta == 3:
-    sulje()
+        valinta = valikko()
+sulje()
 
 
