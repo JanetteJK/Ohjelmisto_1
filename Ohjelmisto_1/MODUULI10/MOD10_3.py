@@ -1,6 +1,3 @@
-from Ohjelmisto_1.MODUULI10.MOD10_1 import elevator
-
-
 class Elevator:
     def __init__(self, first_floor, top_floor):
         self.first_floor = first_floor
@@ -37,12 +34,11 @@ class House:
 
     def fire_alarm(self):
         print("This is a fire alarm!")
-        if elevator.current_floor>house.first_floor:
-            elevator.move_to_floor(house.first_floor)
-
+        for i in self.elevators:
+            i.move_to_floor(house.first_floor)
 
 
 
 house = House(1, 6, 6)
-house.use_elevator(1, 6)
+house.use_elevator(5, 6)
 house.fire_alarm()
