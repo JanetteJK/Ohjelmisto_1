@@ -1,29 +1,5 @@
 import random
 
-class Competition:
-    def __init__(self, name, lenght, cars):
-        self.name = name
-        self.lenght = lenght
-        self.cars = cars
-
-    def hour_passes(self):
-        winner_found = False
-        while not winner_found:
-            for car in cars:
-                car.exhilerate(random.randint(-10, 15))
-                car.travelled(1)
-
-    def current_score(self):
-        print(f"{cars}, {Car.distance}")
-
-    def competition_over(self):
-        winner_found = False
-        if cars.distance >= 10000:
-            winner_found = True
-            cars.sort(key=lambda a: a.distance)
-            for car in cars:
-                print(f'{car.licence}, {car.topspeed}km/h, {car.speed}km/h {car.distance}km')
-
 
 class Car:
     def __init__(self, licence, topspeed):
@@ -43,20 +19,44 @@ class Car:
         self.distance = self.distance + self.speed * hours
 
 
+class Competition:
+    def __init__(self, name, lenght, cars_list):
+        self.name = name
+        self.lenght = lenght
+        self.car_list = cars_list
+        self.cars = []
+        self.time = 0
+
+        for i in range(cars_list + 1):
+            self.cars.append(f'car{i}')
+            topspeed = random.randint(100, 200)
+            self.cars[i - 1] = Car(f'ABC-{i}', topspeed)
+
+    def hour_passes(self):
+        for a in self.cars:
+            gas = random.randint(-10, 15)
+            a.exhilerate(gas)
+            a.travelled(1)
+            self.time = self.time + 1
+
+    def current_score(self):
+        for a in competition.cars:
+            print(f'{a.licence}, {a.topspeed}km/h, {a.speed}km/h {a.distance}km')
+
+    def competition_over(self):
+        for a in self.cars:
+            if a.distance >= self.lenght:
+                competition.current_score()
+
+
 competition = Competition("Suuri romuralli", 8000, 10)
-cars = []
-for i in range(competition.cars):
-    topspeed = random.randint(100,200)
-    cars.append(Car(f'ABC-{i}', topspeed))
-hours = 0
-while not Competition.competition_over(True):
-    hours = hours +1
-    Competition.hour_passes(1)
-    if hours>9:
-        Competition.current_score
-        hours = 0
 
+while not Competition.competition_over():
 
+    competition.hour_passes()
+    print("An hour passes")
+    competition.competition_over()
+    if competition.time % 10:
+        competition.current_score()
 
-
-
+competition.current_score()
