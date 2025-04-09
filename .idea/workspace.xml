@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee22d339-9b5e-4ebc-b0ca-83a7ef9273af" name="Changes" comment="comm">
-      <change afterPath="$PROJECT_DIR$/Ohjelmisto_1/MODUULI12/MOD12_2.py" afterDir="false" />
+    <list default="true" id="ee22d339-9b5e-4ebc-b0ca-83a7ef9273af" name="Changes" comment="mod 10. korjaa 4 vielä">
+      <change afterPath="$PROJECT_DIR$/OHJELMISTO2/httpJUTTUJA.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ohjelmisto_1/MODUULI13/MOD13_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ohjelmisto_1/MODUULI13/MOD13_2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ohjelmisto_1/MODUULI10/MOD10_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ohjelmisto_1/MODUULI10/MOD10_4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,121 +46,83 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.MOD10_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MOD10_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MOD10_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MOD10_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MOD11_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MOD11_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MOD12_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MOD2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MOD2_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MOD2_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MOD2_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MOD2_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MOD2_5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MOD3_1 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.MOD3_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MOD3_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MOD3_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MOD3_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MOD4_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MOD4_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MOD4_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MOD4_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MOD4_5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MOD4_6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MOD5_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MOD5_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MOD5_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MOD5_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MOD6_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MOD6_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MOD6_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MOD6_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MOD6_6.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.MOD7_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MOD7_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MOD7_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MOD8_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MOD9_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MOD9_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MOD9_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MOD9_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Tehtävä1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.pizzatesti.executor&quot;: &quot;Run&quot;,
-    &quot;Python.testi_funktio.executor&quot;: &quot;Run&quot;,
-    &quot;Python.testi_if.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.testi_joukko.executor&quot;: &quot;Run&quot;,
-    &quot;Python.testi_lista.executor&quot;: &quot;Run&quot;,
-    &quot;Python.testi_mariadb.executor&quot;: &quot;Run&quot;,
-    &quot;Python.testi_monikko.executor&quot;: &quot;Run&quot;,
-    &quot;Python.testi_noppa_while.executor&quot;: &quot;Run&quot;,
-    &quot;Python.testi_periytyminen.executor&quot;: &quot;Run&quot;,
-    &quot;Python.testi_range.executor&quot;: &quot;Run&quot;,
-    &quot;Python.testi_while.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/janet/Documents/HTML studies&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Subversion&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.MOD10_1.executor": "Run",
+    "Python.MOD10_2.executor": "Run",
+    "Python.MOD10_3.executor": "Run",
+    "Python.MOD10_4.executor": "Run",
+    "Python.MOD11_1.executor": "Run",
+    "Python.MOD11_2.executor": "Run",
+    "Python.MOD12_1.executor": "Run",
+    "Python.MOD13_1.executor": "Run",
+    "Python.MOD13_2.executor": "Run",
+    "Python.MOD2.executor": "Run",
+    "Python.MOD2_1.executor": "Run",
+    "Python.MOD2_2.executor": "Run",
+    "Python.MOD2_3.executor": "Run",
+    "Python.MOD2_4.executor": "Run",
+    "Python.MOD2_5.executor": "Run",
+    "Python.MOD3_1 (1).executor": "Run",
+    "Python.MOD3_1.executor": "Run",
+    "Python.MOD3_2.executor": "Run",
+    "Python.MOD3_3.executor": "Run",
+    "Python.MOD3_4.executor": "Run",
+    "Python.MOD4_1.executor": "Run",
+    "Python.MOD4_2.executor": "Run",
+    "Python.MOD4_3.executor": "Run",
+    "Python.MOD4_4.executor": "Run",
+    "Python.MOD4_5.executor": "Run",
+    "Python.MOD4_6.executor": "Run",
+    "Python.MOD5_1.executor": "Run",
+    "Python.MOD5_2.executor": "Run",
+    "Python.MOD5_3.executor": "Run",
+    "Python.MOD5_4.executor": "Run",
+    "Python.MOD6_1.executor": "Run",
+    "Python.MOD6_2.executor": "Run",
+    "Python.MOD6_3.executor": "Run",
+    "Python.MOD6_4.executor": "Run",
+    "Python.MOD6_6.executor": "Debug",
+    "Python.MOD7_1.executor": "Run",
+    "Python.MOD7_2.executor": "Run",
+    "Python.MOD7_3.executor": "Run",
+    "Python.MOD8_2.executor": "Run",
+    "Python.MOD9_1.executor": "Run",
+    "Python.MOD9_2.executor": "Run",
+    "Python.MOD9_3.executor": "Run",
+    "Python.MOD9_4.executor": "Run",
+    "Python.Tehtävä1.executor": "Run",
+    "Python.httpJUTTUJA.executor": "Run",
+    "Python.pizzatesti.executor": "Run",
+    "Python.testi_funktio.executor": "Run",
+    "Python.testi_if.executor": "Debug",
+    "Python.testi_joukko.executor": "Run",
+    "Python.testi_lista.executor": "Run",
+    "Python.testi_mariadb.executor": "Run",
+    "Python.testi_monikko.executor": "Run",
+    "Python.testi_noppa_while.executor": "Run",
+    "Python.testi_periytyminen.executor": "Run",
+    "Python.testi_range.executor": "Run",
+    "Python.testi_while.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/janet/Documents/HTML studies",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "vcs.Subversion",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mariadb"
+    ]
   }
-}</component>
-  <component name="RunManager" selected="Python.MOD10_4">
-    <configuration name="MOD10_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Koodit" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Ohjelmisto_1/MODUULI10" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ohjelmisto_1/MODUULI10/MOD10_2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="MOD10_3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Koodit" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Ohjelmisto_1/MODUULI10" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ohjelmisto_1/MODUULI10/MOD10_3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+}]]></component>
+  <component name="RunManager" selected="Python.MOD13_2">
     <configuration name="MOD10_4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Koodit" />
       <option name="ENV_FILES" value="" />
@@ -175,29 +138,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ohjelmisto_1/MODUULI10/MOD10_4.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="MOD11_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Koodit" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Ohjelmisto_1/MODUULI11" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ohjelmisto_1/MODUULI11/MOD11_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -229,13 +169,82 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="MOD13_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Koodit" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Ohjelmisto_1/MODUULI13" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ohjelmisto_1/MODUULI13/MOD13_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="MOD13_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Koodit" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Ohjelmisto_1/MODUULI13" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ohjelmisto_1/MODUULI13/MOD13_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="httpJUTTUJA" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Koodit" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OHJELMISTO2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OHJELMISTO2/httpJUTTUJA.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.MOD13_2" />
+        <item itemvalue="Python.MOD13_1" />
+        <item itemvalue="Python.httpJUTTUJA" />
         <item itemvalue="Python.MOD10_4" />
         <item itemvalue="Python.MOD11_2" />
-        <item itemvalue="Python.MOD11_1" />
-        <item itemvalue="Python.MOD10_2" />
-        <item itemvalue="Python.MOD10_3" />
       </list>
     </recent_temporary>
   </component>
@@ -266,7 +275,8 @@
       <workItem from="1741087244582" duration="868000" />
       <workItem from="1742458301409" duration="46115000" />
       <workItem from="1743490760770" duration="796000" />
-      <workItem from="1743611889533" duration="2617000" />
+      <workItem from="1743611889533" duration="2866000" />
+      <workItem from="1744193557750" duration="8968000" />
     </task>
     <task id="LOCAL-00001" summary="tässä nää">
       <option name="closed" value="true" />
@@ -444,7 +454,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743081382360</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="mod 10. korjaa 4 vielä">
+      <option name="closed" value="true" />
+      <created>1743614565548</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1743614565548</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -465,7 +483,8 @@
     <MESSAGE value="unversioned" />
     <MESSAGE value="mod" />
     <MESSAGE value="comm" />
-    <option name="LAST_COMMIT_MESSAGE" value="comm" />
+    <MESSAGE value="mod 10. korjaa 4 vielä" />
+    <option name="LAST_COMMIT_MESSAGE" value="mod 10. korjaa 4 vielä" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -485,14 +504,15 @@
     <SUITE FILE_PATH="coverage/Koodit$MOD6_4.coverage" NAME="MOD6_4 Coverage Results" MODIFIED="1738497561593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ohjelmisto_1/MODUULI6" />
     <SUITE FILE_PATH="coverage/Koodit$MOD7_2.coverage" NAME="MOD7_2 Coverage Results" MODIFIED="1738827233353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ohjelmisto_1/MODUULI7" />
     <SUITE FILE_PATH="coverage/Koodit$testi_periytyminen.coverage" NAME="testi_periytyminen Coverage Results" MODIFIED="1742989093815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testi_koodit" />
-    <SUITE FILE_PATH="coverage/Koodit$testi_if.coverage" NAME="testi_if Coverage Results" MODIFIED="1737457600529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testi_koodit" />
     <SUITE FILE_PATH="coverage/Koodit$MOD5_3.coverage" NAME="MOD5_3 Coverage Results" MODIFIED="1738226485535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ohjelmisto_1/MODUULI5" />
+    <SUITE FILE_PATH="coverage/Koodit$testi_if.coverage" NAME="testi_if Coverage Results" MODIFIED="1737457600529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testi_koodit" />
     <SUITE FILE_PATH="coverage/Koodit$MOD3_4.coverage" NAME="MOD3_4 Coverage Results" MODIFIED="1737619779391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ohjelmisto_1/MODUULI3" />
     <SUITE FILE_PATH="coverage/Koodit$MOD4_2.coverage" NAME="MOD4_2 Coverage Results" MODIFIED="1737623781789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ohjelmisto_1/MODUULI4" />
     <SUITE FILE_PATH="coverage/Koodit$MOD4_5.coverage" NAME="MOD4_5 Coverage Results" MODIFIED="1737637603767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ohjelmisto_1/MODUULI4" />
     <SUITE FILE_PATH="coverage/Koodit$MOD10_3.coverage" NAME="MOD10_3 Coverage Results" MODIFIED="1743067825372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ohjelmisto_1/MODUULI10" />
     <SUITE FILE_PATH="coverage/Koodit$MOD11_1.coverage" NAME="MOD11_1 Coverage Results" MODIFIED="1743078453410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ohjelmisto_1/MODUULI11" />
     <SUITE FILE_PATH="coverage/Koodit$Tehtävä1.coverage" NAME="Tehtävä1 Coverage Results" MODIFIED="1737018852831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ohjelmisto_1" />
+    <SUITE FILE_PATH="coverage/Koodit$httpJUTTUJA.coverage" NAME="httpJUTTUJA Coverage Results" MODIFIED="1744197396531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OHJELMISTO2" />
     <SUITE FILE_PATH="coverage/Koodit$MOD2_3.coverage" NAME="MOD2_3 Coverage Results" MODIFIED="1737027813387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ohjelmisto_1" />
     <SUITE FILE_PATH="coverage/Koodit$testi_monikko.coverage" NAME="testi_monikko Coverage Results" MODIFIED="1738668291510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testi_koodit" />
     <SUITE FILE_PATH="coverage/Koodit$MOD3_1.coverage" NAME="MOD3_1 Coverage Results" MODIFIED="1737458985994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ohjelmisto_1" />
@@ -526,10 +546,12 @@
     <SUITE FILE_PATH="coverage/Koodit$MOD2_5.coverage" NAME="MOD2_5 Coverage Results" MODIFIED="1737038800545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ohjelmisto_1" />
     <SUITE FILE_PATH="coverage/Koodit$MOD9_3.coverage" NAME="MOD9_3 Coverage Results" MODIFIED="1742470358773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ohjelmisto_1/MODUULI9" />
     <SUITE FILE_PATH="coverage/Koodit$MOD4_1.coverage" NAME="MOD4_1 Coverage Results" MODIFIED="1737619159504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ohjelmisto_1/MODUULI4" />
+    <SUITE FILE_PATH="coverage/Koodit$MOD13_2.coverage" NAME="MOD13_2 Coverage Results" MODIFIED="1744209182489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ohjelmisto_1/MODUULI13" />
     <SUITE FILE_PATH="coverage/Koodit$MOD7_3.coverage" NAME="MOD7_3 Coverage Results" MODIFIED="1738862217426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ohjelmisto_1/MODUULI7" />
     <SUITE FILE_PATH="coverage/Koodit$MOD6_2.coverage" NAME="MOD6_2 Coverage Results" MODIFIED="1738240813751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ohjelmisto_1/MODUULI6" />
     <SUITE FILE_PATH="coverage/Koodit$testi_joukko.coverage" NAME="testi_joukko Coverage Results" MODIFIED="1738669307395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Testi_koodit" />
     <SUITE FILE_PATH="coverage/Koodit$MOD3_1__1_.coverage" NAME="MOD3_1 (1) Coverage Results" MODIFIED="1737461554034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ohjelmisto_1/MODUULI3" />
+    <SUITE FILE_PATH="coverage/Koodit$MOD13_1.coverage" NAME="MOD13_1 Coverage Results" MODIFIED="1744200190608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ohjelmisto_1/MODUULI13" />
     <SUITE FILE_PATH="coverage/Koodit$MOD4_6.coverage" NAME="MOD4_6 Coverage Results" MODIFIED="1737721344922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ohjelmisto_1/MODUULI4" />
     <SUITE FILE_PATH="coverage/Koodit$MOD5_1.coverage" NAME="MOD5_1 Coverage Results" MODIFIED="1738068419786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ohjelmisto_1/MODUULI5" />
   </component>
